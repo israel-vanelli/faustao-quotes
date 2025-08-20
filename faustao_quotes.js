@@ -10,7 +10,7 @@ const quotes = [
     "ERROU"
 ];
 
-function getRandomFaustaoQuote(logToConsole=True) {
+function getRandomFaustaoQuote(logToConsole=true) {
     let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
     if (logToConsole) {
